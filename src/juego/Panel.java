@@ -24,7 +24,7 @@ public class Panel extends JPanel implements ActionListener {
             paradoP = 1;
         }
         t = true;
-        x+=20;
+//        x+=20;
         caminarP++;
         if (caminarP == 4) {
             caminarP = 0;
@@ -113,8 +113,8 @@ public class Panel extends JPanel implements ActionListener {
             }
             k++;
         }
-//        g.drawImage(loadImage("standing.png"), (x + 50), 579, (x + 168), 712, (142 * paradoP), 0, ((142 * paradoP) + 142), 133, this);
-        g.drawImage(loadImage("walking.png"), (x + 50), 578, (x + 168), 712, (124 * caminarP-20), 0, ((124 * caminarP) + 98), 134, this);
+        g.drawImage(loadImage("standing.png"), (x + 50), 579, (x + 168), 712, (142 * paradoP), 0, ((142 * paradoP) + 142), 133, this);
+//        g.drawImage(loadImage("walking.png"), (x + 50), 578, (x + 168), 712, (124 * caminarP-20), 0, ((124 * caminarP) + 98), 134, this);
     }
     
     public Image loadImage(String imageName) {
