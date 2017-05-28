@@ -15,7 +15,7 @@ public class Juego extends JFrame {
     public static void main(String[] args) {
         Juego frame = new Juego();
         frame.setTitle("Juego");
-        frame.setSize(1500, 800);
+        frame.setSize(1200, 640);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
